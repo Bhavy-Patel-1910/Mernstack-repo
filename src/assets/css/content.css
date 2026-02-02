@@ -1,0 +1,11 @@
+.content{
+background-color: aquamarine;
+height: 100%;
+width: 100%;
+}
+.virat{
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    margin-top: 10px;
+}

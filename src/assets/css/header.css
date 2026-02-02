@@ -1,0 +1,24 @@
+.header{
+background-color: rgb(16, 14, 14);
+justify-content: space-between;
+color: white;
+align-items: center;
+height: auto;
+width: 100%;
+text-align: center;
+display: flex;
+border-radius: 10px; 
+}
+.elements{
+    justify-content: space-between;
+color: white;
+align-items: center;
+height: auto;
+width: 100%;
+text-align: center;
+display: flex;
+}
+.home :hover {
+    border: solid white;
+
+}
