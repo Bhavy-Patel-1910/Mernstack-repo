@@ -12,7 +12,9 @@ import { MapDemo4 } from './Component/MapDemo4';
 import { MapDemo5 } from './Component/MapDemo5';
 import { MapDemo6 } from './Component/MapDemo6';
 import { MapDemo7 } from './Component/MapDemo7';
-
+import { MapDemo8 } from './Component/MapDemo8';
+import { MapDemo9 } from './Component/MapDemo9';
+import { MapDemo10 } from './Component/MapDemo10';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -29,6 +31,9 @@ function App() {
       <MapDemo5></MapDemo5>
       <MapDemo6></MapDemo6>
       <MapDemo7></MapDemo7>
+      <MapDemo8></MapDemo8>
+      <MapDemo9></MapDemo9>
+      <MapDemo10></MapDemo10>
       <FooterComponent></FooterComponent>
     </div>
 )

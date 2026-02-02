@@ -1,6 +1,6 @@
 import React from 'react'
 import virat from "../assets/photo/virat.png"
-export const MapDemo7 = () => {
+export const MapDemo8 = () => {
     let members =[
         {id:1, name:"bhavy",marks:90,city:"Patan",collage: "saffrony",no:12},
         {id:2, name:"b",marks:80,city:"sander",collage: "hngu",no:14},
@@ -12,7 +12,7 @@ export const MapDemo7 = () => {
     ]
   return (
     <div style = {{textAlign: 'center'}}>
-        <h1>MAP DEMO 7</h1>
+        <h1>MAP DEMO 8</h1>
         <table className='table' style={{border:"black"}}>
             <thead>
                   
