@@ -36,7 +36,7 @@ export const MapDemo10 = () => {
                     <td style = {{background:mak.city == "ahmedabad"? "purple" : ""}}>{mak.city}</td>
                     <td style={{background:mak.collage == "saffrony" ? "blue" : "black", color: 'white' }}>{mak.collage}</td>
                     <td>{mak.no}</td>
-                    <td > <img src={virat} alt="virat.png"width="60"/> "mak.photo"
+                    <td > <img src={virat} alt="virat.png"width="60"/> 
                     </td>
                         
 

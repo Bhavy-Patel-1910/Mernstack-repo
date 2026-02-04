@@ -15,6 +15,14 @@ import { MapDemo7 } from './Component/MapDemo7';
 import { MapDemo8 } from './Component/MapDemo8';
 import { MapDemo9 } from './Component/MapDemo9';
 import { MapDemo10 } from './Component/MapDemo10';
+import { Navbar } from './Component/Navbar'
+import {Route , Routes}from 'react-router-dom';
+import { Home } from './Component/Home';
+import { Login } from './Component/Login';
+import{ Favorites } from './Component/Favorites';
+import{ Aboutus } from './Component/Aboutus';
+import{ Contact } from './Component/Contact';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,7 +30,8 @@ function App() {
   
   return(
      <div>
-      <HeaderComponent></HeaderComponent>
+      <Navbar></Navbar>
+      {/* <HeaderComponent></HeaderComponent> 
       <ContentComponent></ContentComponent>
       <MapDemo1></MapDemo1>
       <MapDemo2></MapDemo2>
@@ -34,7 +43,15 @@ function App() {
       <MapDemo8></MapDemo8>
       <MapDemo9></MapDemo9>
       <MapDemo10></MapDemo10>
-      <FooterComponent></FooterComponent>
+      <FooterComponent></FooterComponent>  */}
+      <Routes>
+        <Route path="/Home" element={<Home/>}></Route>
+        <Route path="/Favorites" element={<Favorites/>}></Route>
+        <Route path="/Aboutus" element={<Aboutus/>}></Route>
+        <Route path="/Login" element={<Login/>}></Route>
+        <Route path="/Contact" element={<Contact/>}></Route>
+      </Routes>
+     
     </div>
 )
 }
