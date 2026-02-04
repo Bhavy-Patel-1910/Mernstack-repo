@@ -15,13 +15,20 @@ import { MapDemo7 } from './Component/MapDemo7';
 import { MapDemo8 } from './Component/MapDemo8';
 import { MapDemo9 } from './Component/MapDemo9';
 import { MapDemo10 } from './Component/MapDemo10';
-import { Navbar } from './Component/Navbar'
+import { Navbar } from './Component/Navbar';
 import {Route , Routes}from 'react-router-dom';
 import { Home } from './Component/Home';
 import { Login } from './Component/Login';
 import{ Favorites } from './Component/Favorites';
 import{ Aboutus } from './Component/Aboutus';
 import{ Contact } from './Component/Contact';
+import { NetflixHome } from './Component/NetflixHome';
+import { NetflixMovies } from './Component/NetflixMovies';
+import { NetflixShows } from './Component/NetflixShows';
+import { ErrorNotFound } from './Component/ErrorNotFound';
+import { Watch } from './Component/Watch';
+import {Team } from './Component/Team'
+import { Playing } from './Component/Playing';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -50,6 +57,14 @@ function App() {
         <Route path="/Aboutus" element={<Aboutus/>}></Route>
         <Route path="/Login" element={<Login/>}></Route>
         <Route path="/Contact" element={<Contact/>}></Route>
+        <Route path="/NetflixHome" element={<NetflixHome/>}></Route>
+        <Route path="/NetflixMovies" element={<NetflixMovies/>}></Route>
+        <Route path="/NetflixShows" element={<NetflixShows/>}></Route>
+        <Route path="/*" element={<ErrorNotFound/>}></Route>
+        <Route path="/Watch/:name" element={<Watch/>}></Route>
+        <Route path="/Team" element={<Team/>}></Route>
+        <Route path="/playing/:name" element={<Playing/>} > </Route>
+
       </Routes>
      
     </div>
