@@ -38,9 +38,26 @@ export const Navbar = () => {
             Favorits
             </Link>
 
-            <Link class="nav-link" to="/login">
-            Login
+            <Link class="nav-link" to="/UseStateDemo1">
+            Demo1
             </Link>
+
+            <Link class="nav-link" to="/UseStateDemo2">
+            Demo2
+            </Link>
+
+            <Link class="nav-link" to="/UseStateDemo3">
+            Demo3
+            </Link>
+
+            {/* <Link class="nav-link" to="/login">
+            Login
+            </Link> */}
+            
+            <Link class="nav-link" to="/functiondemo1">
+            Function Demo
+            </Link>
+
         </nav>
 
     </div>

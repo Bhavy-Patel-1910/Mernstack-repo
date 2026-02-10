@@ -29,7 +29,10 @@ import { ErrorNotFound } from './Component/ErrorNotFound';
 import { Watch } from './Component/Watch';
 import {Team } from './Component/Team'
 import { Playing } from './Component/Playing';
-
+import { UseStateDemo1 } from './Component/UseStateDemo1';
+import { UseStateDemo2 } from './Component/UseStateDemo2';
+import { UseStateDemo3 } from './Component/UseStateDemo3';
+import { FunctionDemo1 } from './Component/FunctionDemo1';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -64,6 +67,10 @@ function App() {
         <Route path="/Watch/:name" element={<Watch/>}></Route>
         <Route path="/Team" element={<Team/>}></Route>
         <Route path="/playing/:name" element={<Playing/>} > </Route>
+        <Route path="/UseStateDemo1" element={<UseStateDemo1/>}></Route>
+        <Route path="/UseStateDemo2" element={<UseStateDemo2/>}></Route>
+        <Route path="/UseStateDemo3" element={<UseStateDemo3/>}></Route>
+        <Route path="/FunctionDemo1" element={<FunctionDemo1/>}></Route>
 
       </Routes>
      
