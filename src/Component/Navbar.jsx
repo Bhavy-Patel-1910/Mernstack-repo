@@ -6,7 +6,7 @@ export const Navbar = () => {
     <div>
         <nav style={{background:"black", alignItems:"center",justifyContent:"space-between",color:"white",display:"flex"}}>
         
-           <Link class="nav-link" to="/NetflixHome">
+           {/* <Link class="nav-link" to="/NetflixHome">
             Home
            </Link>
 
@@ -16,7 +16,7 @@ export const Navbar = () => {
 
            <Link class="nav-link" to="/Netflixshows">
             Shows
-           </Link>
+           </Link> */}
 
             {/* <Link class="nav-link" to="/Home">
             Home
@@ -34,9 +34,9 @@ export const Navbar = () => {
             Team
             </Link>
 
-            <Link class="nav-link" to="/favorites">
+            {/* <Link class="nav-link" to="/favorites">
             Favorits
-            </Link>
+            </Link> */}
 
             <Link class="nav-link" to="/UseStateDemo1">
             Demo1
@@ -56,6 +56,30 @@ export const Navbar = () => {
             
             <Link class="nav-link" to="/functiondemo1">
             Function Demo
+            </Link>
+
+             <Link class="nav-link" to="/Employees">
+            Employees
+            </Link>
+
+             <Link class="nav-link" to="/Users">
+            Users
+            </Link>
+
+            <Link class="nav-link" to="/FormDemo1">
+            FormDemo1
+            </Link>
+
+            <Link class="nav-link" to="/FormDemo2">
+            FormDemo2
+            </Link>
+
+            <Link class="nav-link" to="/FormDemo3">
+            FormDemo3
+            </Link>
+
+             <Link class="nav-link" to="/InputDemo1">
+            InputDemo1
             </Link>
 
         </nav>

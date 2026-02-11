@@ -33,11 +33,18 @@ import { UseStateDemo1 } from './Component/UseStateDemo1';
 import { UseStateDemo2 } from './Component/UseStateDemo2';
 import { UseStateDemo3 } from './Component/UseStateDemo3';
 import { FunctionDemo1 } from './Component/FunctionDemo1';
+import { Employees } from './Component/Employees';
+import { ShlashPage } from './Component/ShlashPage';
+import { Users } from './Component/Users';
+import { FormDemo1 } from './Component/form/FormDemo1';
+import { FormDemo2 } from './Component/form/FormDemo2';
+import { FormDemo3 } from './Component/form/FormDemo3';
+import { InputDemo1 } from './Component/input/InputDemo1';
+
 function App() {
   const [count, setCount] = useState(0)
 
 
-  
   return(
      <div>
       <Navbar></Navbar>
@@ -71,6 +78,13 @@ function App() {
         <Route path="/UseStateDemo2" element={<UseStateDemo2/>}></Route>
         <Route path="/UseStateDemo3" element={<UseStateDemo3/>}></Route>
         <Route path="/FunctionDemo1" element={<FunctionDemo1/>}></Route>
+        <Route path="/Employees" element={<Employees/>}></Route>
+        <Route path="/" element={<ShlashPage/>}></Route>
+        <Route path="/Users" element={<Users/>}></Route>
+        <Route path="/FormDemo1" element={<FormDemo1/>}></Route>
+        <Route path="/FormDemo2" element={<FormDemo2/>}></Route>
+        <Route path="/FormDemo3" element={<FormDemo3/>}></Route>
+        <Route path="/InputDemo1" element={<InputDemo1/>}></Route>
 
       </Routes>
      
