@@ -16,7 +16,7 @@ export const Employees = () => {
 
   return (
     <div style={{textAlign:"centre"}}>
-        <h1>Employees</h1>
+        <h1>EmployeesProps</h1>
         
         <EmployeeList title={title} company={company} employees = {employees}></EmployeeList>
     </div>

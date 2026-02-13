@@ -5,7 +5,7 @@ export const EmployeeList = (props) => {
   console.log("empist", props)
   return (
     <div style={{ textAlign:"center"}}>
-        <h1>EmployeesList</h1>
+        <h1>EmployeesListProps</h1>
         {props.title}
         <h1>{props.company.name}</h1>
         <h1>{props.company.year}</h1>

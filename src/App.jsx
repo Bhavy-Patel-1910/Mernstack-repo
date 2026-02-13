@@ -40,6 +40,9 @@ import { FormDemo1 } from './Component/form/FormDemo1';
 import { FormDemo2 } from './Component/form/FormDemo2';
 import { FormDemo3 } from './Component/form/FormDemo3';
 import { InputDemo1 } from './Component/input/InputDemo1';
+import { FormDemo4 } from './Component/form/FormDemo4';
+import { FormDemo5 } from './Component/form/FormDemo5';
+import { FormDemo6 } from './Component/form/FormDemo6';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -85,6 +88,9 @@ function App() {
         <Route path="/FormDemo2" element={<FormDemo2/>}></Route>
         <Route path="/FormDemo3" element={<FormDemo3/>}></Route>
         <Route path="/InputDemo1" element={<InputDemo1/>}></Route>
+        <Route path="/FormDemo4" element={<FormDemo4/>}></Route>
+        <Route path="/FormDemo5" element={<FormDemo5/>}></Route>
+        <Route path="/FormDemo6" element={<FormDemo6/>}></Route>
 
       </Routes>
      
