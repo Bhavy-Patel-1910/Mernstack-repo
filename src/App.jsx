@@ -46,6 +46,8 @@ import { FormDemo6 } from './Component/form/FormDemo6';
 import { FormDemo7 } from './Component/form/FormDemo7';
 import { FormDemo8 } from './Component/form/FormDemo8';
 import { FormDemo9 } from './Component/form/FormDemo9';
+import { ApiDemo } from './Component/api/ApiDemo';
+import { ApiDemo1 } from './Component/api/ApiDemo1';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -97,6 +99,8 @@ function App() {
         <Route path="/FormDemo7" element={<FormDemo7/>}></Route>
         <Route path="/FormDemo8" element={<FormDemo8/>}></Route>
         <Route path="/FormDemo9" element={<FormDemo9/>}></Route>
+        <Route path="/ApiDemo" element={<ApiDemo/>}></Route>
+        <Route path="/ApiDemo1" element={<ApiDemo1/>}></Route>
 
       </Routes>
      

@@ -107,6 +107,15 @@ export const Navbar = () => {
             FormDemo9
             </Link> 
 
+            <Link class="nav-link" to="/ApiDemo"> 
+            ApiDemo
+            </Link> 
+
+            <Link class="nav-link" to="/ApiDemo1"> 
+            ApiDemo1
+            </Link> 
+
+
 
         </nav>
 
