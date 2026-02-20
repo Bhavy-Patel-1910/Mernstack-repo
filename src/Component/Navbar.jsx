@@ -30,15 +30,15 @@ export const Navbar = () => {
             Contact
             </Link> */}
 
-            <Link class="nav-link" to="/Team">
+            {/* <Link class="nav-link" to="/Team">
             Team
-            </Link>
+            </Link> */}
 
             {/* <Link class="nav-link" to="/favorites">
             Favorits
             </Link> */}
 
-            <Link class="nav-link" to="/UseStateDemo1">
+            {/* <Link class="nav-link" to="/UseStateDemo1">
             Demo1
             </Link>
 
@@ -48,13 +48,13 @@ export const Navbar = () => {
 
             <Link class="nav-link" to="/UseStateDemo3">
             Demo3
-            </Link>
+            </Link> */}
 
             {/* <Link class="nav-link" to="/login">
             Login
             </Link> */}
             
-            <Link class="nav-link" to="/functiondemo1">
+            {/* <Link class="nav-link" to="/functiondemo1">
             Function Demo
             </Link>
 
@@ -64,7 +64,7 @@ export const Navbar = () => {
 
              <Link class="nav-link" to="/Users">
             Users
-            </Link>
+            </Link> */}
 
             {/* <Link class="nav-link" to="/FormDemo1">
             FormDemo1
@@ -79,9 +79,9 @@ export const Navbar = () => {
             </Link> */}
 
 
-             <Link class="nav-link" to="/InputDemo1">
+             {/* <Link class="nav-link" to="/InputDemo1">
             InputDemo1
-            </Link>
+            </Link> */}
 
             {/* <Link class="nav-link" to="/FormDemo4">
             FormDemo4
@@ -114,6 +114,18 @@ export const Navbar = () => {
             <Link class="nav-link" to="/ApiDemo1"> 
             ApiDemo1
             </Link> 
+
+            <Link class="nav-link" to="/ApiDemo2">
+            ApiDemo2
+            </Link>
+
+            <Link class="nav-link" to="/OmdbSearch">
+            OmdbSearch
+            </Link>
+
+            <Link class="nav-link" to="/ApiDemo3">
+            ApiDemo3
+            </Link>
 
 
 

@@ -48,6 +48,10 @@ import { FormDemo8 } from './Component/form/FormDemo8';
 import { FormDemo9 } from './Component/form/FormDemo9';
 import { ApiDemo } from './Component/api/ApiDemo';
 import { ApiDemo1 } from './Component/api/ApiDemo1';
+import { ApiDemo2 } from './Component/api/ApiDemo2';
+import { OmdbSearch } from './Component/api/OmdbSearch';
+import { MovieDetails } from './Component/MovieDetails';
+import ApiDemo3 from './Component/api/ApiDemo3';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -101,6 +105,12 @@ function App() {
         <Route path="/FormDemo9" element={<FormDemo9/>}></Route>
         <Route path="/ApiDemo" element={<ApiDemo/>}></Route>
         <Route path="/ApiDemo1" element={<ApiDemo1/>}></Route>
+        <Route path="/ApiDemo2" element={<ApiDemo2/>}></Route>
+        <Route path="/OmdbSearch" element={<OmdbSearch/>}></Route>
+        {/* include title in URL for readability (encoded) */}
+        <Route path="/MovieDetails/:id/:title" element={<MovieDetails/>}></Route>
+        <Route path="/MovieDetails/:id" element={<MovieDetails/>}></Route>
+        <Route path="/ApiDemo3" element={<ApiDemo3/>}></Route>
 
       </Routes>
      
